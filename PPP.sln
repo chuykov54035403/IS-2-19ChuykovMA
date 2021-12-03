@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPP", "PPP\PPP.csproj", "{3EB9F952-17B8-4756-9D5C-8041B72FAF1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectDB", "ConnectDB\ConnectDB.csproj", "{0318CEE7-0B77-47F4-BD1B-C13A5366FE83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EB9F952-17B8-4756-9D5C-8041B72FAF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB9F952-17B8-4756-9D5C-8041B72FAF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB9F952-17B8-4756-9D5C-8041B72FAF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB9F952-17B8-4756-9D5C-8041B72FAF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0318CEE7-0B77-47F4-BD1B-C13A5366FE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0318CEE7-0B77-47F4-BD1B-C13A5366FE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0318CEE7-0B77-47F4-BD1B-C13A5366FE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0318CEE7-0B77-47F4-BD1B-C13A5366FE83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D1B6F9A-8805-42A8-9207-E4BCBC47073F}
+	EndGlobalSection
+EndGlobal
