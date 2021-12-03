@@ -20,7 +20,7 @@ namespace PPP
 
         MySqlConnection conn = new MySqlConnection(Con_zadanie3.C());
 
-        string id_rows5 = "0";
+        string id_rows5;
 
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -37,12 +37,17 @@ namespace PPP
                 id_rows5 = dataGridView1.Rows[Convert.ToInt32(index_rows5)].Cells[2].Value.ToString();
                 DateTime todays_date = DateTime.Today;
                 DateTime Date_of_Birth = Convert.ToDateTime(dataGridView1.Rows[Convert.ToInt32(index_rows5)].Cells[2].Value.ToString());
-                string result = (todays_date - Date_of_Birth).ToString(); //Тут хранится значение, которое соотвутствует прошедшим дням
-                MessageBox.Show("Со дня рождения прошло " + result.Substring(0, result.Length - 9) + " дней"); //Тут это значение приводится в презентабельный вид и выводится пользователю
+                string result = (todays_date - Date_of_Birth).ToString();
+                MessageBox.Show("Со дня рождения прошло " + result.Substring(0, result.Length - 9) + " дней");
             }
         }
 
         private void ZADANIE_4_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             string sql = $"SELECT idStud, fioStud, drStud FROM t_datetime";
             try
