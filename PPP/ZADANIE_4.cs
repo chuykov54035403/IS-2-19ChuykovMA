@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ConnectDB;
 
 namespace PPP
 {
@@ -18,7 +19,7 @@ namespace PPP
             InitializeComponent();
         }
 
-        MySqlConnection conn = new MySqlConnection(Con_zadanie3.C());
+        MySqlConnection conn = new MySqlConnection(Con_zadanie4.C());
 
         string id_rows5;
 

@@ -2,7 +2,7 @@
 
 namespace ConnectDB
 {
-    internal class Con_zadanie3
+    internal class Con_zadanie4
     {
         public static string C()
         {

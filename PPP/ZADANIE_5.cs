@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using ConnectDB;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,7 @@ namespace PPP
     public partial class ZADANIE_5 : Form
     {
 
-        MySqlConnection conn = new MySqlConnection(Con_zadanie3.C());
+        MySqlConnection conn = new MySqlConnection(Con_zadanie4.C());
 
         public ZADANIE_5()
         {
